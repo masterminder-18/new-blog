@@ -3,8 +3,8 @@ User-agent: *
 Allow: /
 
 # Host
-Host: http://localhost:3300
+Host: https://blog.yusuke-sugino.biz/
 
 # Sitemaps
-Sitemap: http://localhost:3300/sitemap.xml
-Sitemap: http://localhost:3300/dynamic-sitemap.xml
+Sitemap: https://blog.yusuke-sugino.biz/sitemap.xml
+Sitemap: https://blog.yusuke-sugino.biz//dynamic-sitemap.xml
