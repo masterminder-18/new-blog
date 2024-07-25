@@ -4,7 +4,7 @@ const blogConfig: BlogConfig = {
   use: "notion", // mdx or notion
   siteLogo: {
     url: "/images/logo.svg",
-    width: 201,
+    width: 350,
     height: 39,
   },
   siteName: "Knowledge Stock",
@@ -66,12 +66,12 @@ const blogConfig: BlogConfig = {
     },
   },
   hero: {
-    title: "Knowledge Stock",
+    title: "insights on productivity",
     image: "/images/plane.jpeg",
-    description: "AWESOME Next.js TypeScript MDX Blog Theme",
+    description: "「生産性」にまつわるナレッジをまとめています",
   },
   footer: {
-    title: "My Knowledge Stock",
+    title: "",
   },
   article: {
     defaultThumbnail: "/images/plane.jpeg",
@@ -108,7 +108,7 @@ const blogConfig: BlogConfig = {
   account: {
     name: "Yusuke Sugino",
     description: "生成AI✖️広告で色々やってます。",
-    image: `/images/me.jpeg`,
+    image: `/images/avatar.jpg`,
     social: {
       twitter: "https://x.com/yspipinosuke",
       globe: "https://interest-me.blog/",
@@ -120,7 +120,7 @@ const blogConfig: BlogConfig = {
       name: "Yusuke Sugino",
       description:
         "エンジニアとしてのバックグランドを活かし、生成AI✖️広告を攻めてます。",
-      image: "/images/avatar.png",
+      image: "/images/avatar.jpg",
     },
   ],
   categories: [
