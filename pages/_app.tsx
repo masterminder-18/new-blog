@@ -7,12 +7,13 @@ import {
   faGithub,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
+import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { useRouter } from "next/dist/client/router";
 import { useEffect } from "react";
 import blogConfig from "@/blog.config";
 
-library.add(faTwitter, faFacebook, faGithub);
+library.add(faTwitter, faFacebook, faGithub, faGlobe);
 
 export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter();

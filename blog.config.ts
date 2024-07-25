@@ -7,10 +7,10 @@ const blogConfig: BlogConfig = {
     width: 201,
     height: 39,
   },
-  siteName: "AWESOME",
+  siteName: "Knowledge Stock",
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL,
-  title: "AWESOME",
-  description: "AWESOME Next.js TypeScript MDX Blog Theme",
+  title: "Knowledge Stock",
+  description: "My Knowledge Stock",
   googleAnalyticsCode: "", // G-**********
   googleAdsenseCode: "", // ca-pub-****************
   notFoundPage: {
@@ -66,12 +66,12 @@ const blogConfig: BlogConfig = {
     },
   },
   hero: {
-    title: "My awesome life",
+    title: "Knowledge Stock",
     image: "/images/plane.jpeg",
     description: "AWESOME Next.js TypeScript MDX Blog Theme",
   },
   footer: {
-    title: "AWESOME Next.js TypeScript MDX Blog Theme",
+    title: "My Knowledge Stock",
   },
   article: {
     defaultThumbnail: "/images/plane.jpeg",
@@ -79,12 +79,16 @@ const blogConfig: BlogConfig = {
   },
   navigation: [
     {
-      name: "travel",
-      url: `/travel`,
+      name: "ICT",
+      url: `/ict`,
     },
     {
-      name: "camp",
-      url: `/camp`,
+      name: "AI",
+      url: `/ai`,
+    },
+    {
+      name: "Work",
+      url: "/work",
     },
   ],
   subNavigation: [
@@ -96,32 +100,27 @@ const blogConfig: BlogConfig = {
       name: "privacy",
       url: "/about/privacy",
     },
-    {
-      name: "GitHub",
-      url: "https://github.com/steelydylan/Awesome",
-    },
+    // {
+    //   name: "GitHub",
+    //   url: "https://github.com/steelydylan/Awesome",
+    // },
   ],
   account: {
-    name: "steelydylan",
-    description: "profile here profile here profile here profile here",
+    name: "Yusuke Sugino",
+    description: "生成AI✖️広告で色々やってます。",
     image: `/images/me.jpeg`,
     social: {
-      twitter: "https://twitter.com/steelydylan",
-      github: "https://github.com/steelydylan",
+      twitter: "https://x.com/yspipinosuke",
+      globe: "https://interest-me.blog/",
     },
   },
   writers: [
     {
-      id: "awesome",
-      name: "Mr. AWESOME",
-      description: "profile here profile here profile here profile here",
-      image: "/images/me.jpeg",
-    },
-    {
-      id: "steelydylan",
-      name: "steelydylan",
-      description: "profile here profile here profile here profile here",
-      image: "/images/me.jpeg",
+      id: "Yusuke Sugino",
+      name: "Yusuke Sugino",
+      description:
+        "エンジニアとしてのバックグランドを活かし、生成AI✖️広告を攻めてます。",
+      image: "/images/avatar.png",
     },
   ],
   categories: [
@@ -132,14 +131,20 @@ const blogConfig: BlogConfig = {
       description: "",
     },
     {
-      id: "camp",
-      title: "Camp",
+      id: "work",
+      title: "Work",
       imagePath: "/images/camp.jpeg",
       description: "Look at my awesome camp life",
     },
     {
-      id: "travel",
-      title: "Travel",
+      id: "ict",
+      title: "ict",
+      imagePath: "/images/camp.jpeg",
+      description: "Look at my awesome camp life",
+    },
+    {
+      id: "ai",
+      title: "AI",
       imagePath: "/images/london.jpeg",
       description: "Look at my awesome travel life",
     },

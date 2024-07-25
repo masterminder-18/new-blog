@@ -5,6 +5,8 @@ import {
   faInstagram,
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
+import { faGlobe } from "@fortawesome/free-solid-svg-icons";
+
 import Head from "next/head";
 import { Header } from "@/components/layouts/header";
 import { Footer } from "@/components/layouts/footer";
@@ -32,7 +34,7 @@ const nextSeoConfig: NextSeoProps = {
   additionalLinkTags: [],
 };
 
-library.add(faTwitter, faInstagram, faGithub);
+library.add(faTwitter, faInstagram, faGithub, faGlobe);
 
 export function Layout(props: { children: React.ReactNode }) {
   return (
