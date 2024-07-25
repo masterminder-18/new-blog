@@ -36,14 +36,16 @@ const TopPage = ({
           <ArticleList>
             <Title>{blogConfig.topPage.title}</Title>
             <LatestArticle>
-              {articles.map((article) => (
-                <AritcleColumn key={article.slug} column={3}>
-                  <ArticleCard
-                    article={article.data}
-                    href={`/${article.data.category}/${article.slug}`}
-                  />
-                </AritcleColumn>
-              ))}
+              {articles
+                .filter((article) => article.data.category !== "about")
+                .map((article) => (
+                  <AritcleColumn key={article.slug} column={3}>
+                    <ArticleCard
+                      article={article.data}
+                      href={`/${article.data.category}/${article.slug}`}
+                    />
+                  </AritcleColumn>
+                ))}
             </LatestArticle>
             <div className="link-button-wrap">
               {max > 1 && (

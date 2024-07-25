@@ -138,7 +138,7 @@ const blogConfig: BlogConfig = {
     },
     {
       id: "ict",
-      title: "ict",
+      title: "ICT",
       imagePath: "/images/camp.jpeg",
       description: "Look at my awesome camp life",
     },
